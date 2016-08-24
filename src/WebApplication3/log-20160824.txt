@@ -1,0 +1,82 @@
+2016-08-24 22:27:01.104 +01:00 [Debug] Hosting starting
+2016-08-24 22:27:01.204 +01:00 [Debug] Hosting started
+2016-08-24 22:27:01.452 +01:00 [Debug] Connection id ""0HKUCCLHG8797"" started.
+2016-08-24 22:27:01.452 +01:00 [Debug] Connection id ""0HKUCCLHG8798"" started.
+2016-08-24 22:27:01.544 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:64870/api/values  
+2016-08-24 22:27:01.544 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:64870/  0
+2016-08-24 22:27:01.575 +01:00 [Information] Request finished in 47.5945ms 200 
+2016-08-24 22:27:01.610 +01:00 [Debug] Connection id ""0HKUCCLHG8798"" completed keep alive response.
+2016-08-24 22:27:01.900 +01:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Values"'.
+2016-08-24 22:27:01.930 +01:00 [Debug] Action '"WebApplication3.Controllers.ValuesController.Post (WebApplication3)"' with id '"90b34a23-8f00-4c4a-9a11-1c1c26146634"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2016-08-24 22:27:01.984 +01:00 [Debug] Executing action "WebApplication3.Controllers.ValuesController.Get (WebApplication3)"
+2016-08-24 22:27:02.004 +01:00 [Information] Authorization was successful for user: "CTHULHU\darren".
+2016-08-24 22:27:02.057 +01:00 [Information] Executing action method "WebApplication3.Controllers.ValuesController.Get (WebApplication3)" with arguments (null) - ModelState is Valid
+2016-08-24 22:27:02.059 +01:00 [Information] This happened
+2016-08-24 22:27:05.850 +01:00 [Debug] Executed action method "WebApplication3.Controllers.ValuesController.Get (WebApplication3)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult".
+2016-08-24 22:27:05.869 +01:00 [Debug] No information found on request to perform content negotiation.
+2016-08-24 22:27:05.872 +01:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2016-08-24 22:27:05.873 +01:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-08-24 22:27:06.006 +01:00 [Information] Executed action "WebApplication3.Controllers.ValuesController.Get (WebApplication3)" in 4018.6165ms
+2016-08-24 22:27:06.067 +01:00 [Information] Request finished in 4545.7816ms 200 application/json; charset=utf-8
+2016-08-24 22:27:06.069 +01:00 [Debug] Connection id ""0HKUCCLHG8797"" completed keep alive response.
+2016-08-24 22:28:51.406 +01:00 [Debug] Connection id ""0HKUCCLHG8797"" received FIN.
+2016-08-24 22:28:51.406 +01:00 [Debug] Connection id ""0HKUCCLHG8798"" received FIN.
+2016-08-24 22:28:51.408 +01:00 [Debug] Connection id ""0HKUCCLHG8798"" disconnecting.
+2016-08-24 22:28:51.409 +01:00 [Debug] Connection id ""0HKUCCLHG8797"" disconnecting.
+2016-08-24 22:28:51.409 +01:00 [Debug] Connection id ""0HKUCCLHG8798"" sending FIN.
+2016-08-24 22:28:51.409 +01:00 [Debug] Connection id ""0HKUCCLHG8797"" sending FIN.
+2016-08-24 22:28:51.416 +01:00 [Debug] Connection id ""0HKUCCLHG8797"" sent FIN with status "0".
+2016-08-24 22:28:51.416 +01:00 [Debug] Connection id ""0HKUCCLHG8798"" sent FIN with status "0".
+2016-08-24 22:28:51.419 +01:00 [Debug] Connection id ""0HKUCCLHG8797"" stopped.
+2016-08-24 22:28:51.419 +01:00 [Debug] Connection id ""0HKUCCLHG8798"" stopped.
+2016-08-24 22:38:46.129 +01:00 [Debug] Hosting starting
+2016-08-24 22:38:46.215 +01:00 [Debug] Hosting started
+2016-08-24 22:38:46.339 +01:00 [Debug] Connection id ""0HKUCCS3ILH1D"" started.
+2016-08-24 22:38:46.340 +01:00 [Debug] Connection id ""0HKUCCS3ILH1E"" started.
+2016-08-24 22:38:46.419 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:64870/  0
+2016-08-24 22:38:46.419 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:64870/api/values  
+2016-08-24 22:38:46.452 +01:00 [Information] Request finished in 48.8435ms 200 
+2016-08-24 22:38:46.478 +01:00 [Debug] Connection id ""0HKUCCS3ILH1E"" completed keep alive response.
+2016-08-24 22:38:46.701 +01:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Values"'.
+2016-08-24 22:38:46.725 +01:00 [Debug] Action '"WebApplication3.Controllers.ValuesController.Post (WebApplication3)"' with id '"0d560cc2-c5c1-4dd8-aa56-963900d725c4"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2016-08-24 22:38:46.783 +01:00 [Debug] Executing action "WebApplication3.Controllers.ValuesController.Get (WebApplication3)"
+2016-08-24 22:38:46.803 +01:00 [Information] Authorization was successful for user: "CTHULHU\darren".
+2016-08-24 22:38:46.849 +01:00 [Information] Executing action method "WebApplication3.Controllers.ValuesController.Get (WebApplication3)" with arguments (null) - ModelState is Valid
+2016-08-24 22:38:46.851 +01:00 [Information] This happened
+2016-08-24 22:38:55.933 +01:00 [Debug] Executed action method "WebApplication3.Controllers.ValuesController.Get (WebApplication3)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult".
+2016-08-24 22:38:55.956 +01:00 [Debug] No information found on request to perform content negotiation.
+2016-08-24 22:38:55.959 +01:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2016-08-24 22:38:55.960 +01:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-08-24 22:38:56.106 +01:00 [Information] Executed action "WebApplication3.Controllers.ValuesController.Get (WebApplication3)" in 9315.1799ms
+2016-08-24 22:38:56.146 +01:00 [Information] Request finished in 9747.6522ms 200 application/json; charset=utf-8
+2016-08-24 22:38:56.147 +01:00 [Debug] Connection id ""0HKUCCS3ILH1D"" completed keep alive response.
+2016-08-24 22:40:36.323 +01:00 [Debug] Connection id ""0HKUCCS3ILH1D"" received FIN.
+2016-08-24 22:40:36.323 +01:00 [Debug] Connection id ""0HKUCCS3ILH1E"" received FIN.
+2016-08-24 22:40:36.331 +01:00 [Debug] Connection id ""0HKUCCS3ILH1D"" disconnecting.
+2016-08-24 22:40:36.332 +01:00 [Debug] Connection id ""0HKUCCS3ILH1E"" disconnecting.
+2016-08-24 22:40:36.333 +01:00 [Debug] Connection id ""0HKUCCS3ILH1D"" sending FIN.
+2016-08-24 22:40:36.333 +01:00 [Debug] Connection id ""0HKUCCS3ILH1E"" sending FIN.
+2016-08-24 22:40:36.347 +01:00 [Debug] Connection id ""0HKUCCS3ILH1D"" sent FIN with status "0".
+2016-08-24 22:40:36.347 +01:00 [Debug] Connection id ""0HKUCCS3ILH1E"" sent FIN with status "0".
+2016-08-24 22:40:36.354 +01:00 [Debug] Connection id ""0HKUCCS3ILH1D"" stopped.
+2016-08-24 22:40:36.354 +01:00 [Debug] Connection id ""0HKUCCS3ILH1E"" stopped.
+2016-08-24 22:47:17.350 +01:00 [Debug] Connection id ""0HKUCCS3ILH1F"" started.
+2016-08-24 22:47:17.352 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:64870/api/values  
+2016-08-24 22:47:17.353 +01:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Values"'.
+2016-08-24 22:47:17.354 +01:00 [Debug] Action '"WebApplication3.Controllers.ValuesController.Post (WebApplication3)"' with id '"0d560cc2-c5c1-4dd8-aa56-963900d725c4"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2016-08-24 22:47:17.355 +01:00 [Debug] Executing action "WebApplication3.Controllers.ValuesController.Get (WebApplication3)"
+2016-08-24 22:47:17.357 +01:00 [Information] Authorization was successful for user: "CTHULHU\darren".
+2016-08-24 22:47:17.359 +01:00 [Information] Executing action method "WebApplication3.Controllers.ValuesController.Get (WebApplication3)" with arguments (null) - ModelState is Valid
+2016-08-24 22:47:17.360 +01:00 [Information] This happened
+2016-08-24 22:47:31.740 +01:00 [Debug] Executed action method "WebApplication3.Controllers.ValuesController.Get (WebApplication3)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult".
+2016-08-24 22:47:31.741 +01:00 [Debug] No information found on request to perform content negotiation.
+2016-08-24 22:47:31.741 +01:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter"' and content type '"application/json"' to write the response.
+2016-08-24 22:47:31.743 +01:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2016-08-24 22:47:31.746 +01:00 [Information] Executed action "WebApplication3.Controllers.ValuesController.Get (WebApplication3)" in 14389.3675ms
+2016-08-24 22:47:31.748 +01:00 [Information] Request finished in 14395.426ms 200 application/json; charset=utf-8
+2016-08-24 22:47:31.748 +01:00 [Debug] Connection id ""0HKUCCS3ILH1F"" completed keep alive response.
+2016-08-24 22:49:46.321 +01:00 [Debug] Connection id ""0HKUCCS3ILH1F"" received FIN.
+2016-08-24 22:49:46.321 +01:00 [Debug] Connection id ""0HKUCCS3ILH1F"" disconnecting.
+2016-08-24 22:49:46.321 +01:00 [Debug] Connection id ""0HKUCCS3ILH1F"" sending FIN.
+2016-08-24 22:49:46.321 +01:00 [Debug] Connection id ""0HKUCCS3ILH1F"" sent FIN with status "0".
+2016-08-24 22:49:46.321 +01:00 [Debug] Connection id ""0HKUCCS3ILH1F"" stopped.
